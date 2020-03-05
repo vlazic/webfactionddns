@@ -33,12 +33,13 @@ Features
 
 CLI example:
 
-.. code:: text
+.. code:: bash
 
     $ webfactionddns -u webfaction-user -p webfaction-password -d my-domain.com
     Your new IP address is: 22.22.22.22
 
-    $ you can use enviroment variables for user/pass as well
+    You can use enviroment variables for user/pass as well
+
     $ WEBFACTION_USER=webfaction-user WEBFACTION_PASSWORD=webfaction-password webfactionddns -d my-domain.com
     Your new IP address is: 22.22.22.22
 
