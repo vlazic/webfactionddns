@@ -32,12 +32,9 @@ Features
 
 CLI example:
 
-.. code:: python
+.. code:: text
 
-        webfactionddns -u webfaction-user -p webfaction-password -d my-domain.com
-
-
-.. code:: python
+    $ webfactionddns --help
 
     Usage: webfactionddns [OPTIONS]
 
@@ -52,7 +49,7 @@ CLI example:
                             set for current machine public IP
         --help               Show this message and exit.
 
-Code:
+Code example:
 
 .. code:: python
 
@@ -61,8 +58,7 @@ Code:
         # try logging in to Webfaction
         try:
                 wddns = webfactionddns.WebfactionDDNS(user, password)
-                except Exception as e:
-        print(e.faultString)
+        except Exception as e:
                 print(e.faultString)
 
         # try updating DNS for domain
