@@ -10,11 +10,11 @@ with open('README.rst') as readme_file:
 with open('HISTORY.rst') as history_file:
     history = history_file.read()
 
-requirements = ['Click>=7.0', ]
+requirements = ['Click>=7.0', 'requests==2.23.0']
 
-setup_requirements = [ ]
+setup_requirements = []
 
-test_requirements = [ ]
+test_requirements = []
 
 setup(
     author="Vladimir Lazic",
@@ -34,20 +34,20 @@ setup(
     description="Use Webfaction as DDNS provider",
     entry_points={
         'console_scripts': [
-            'webfaction_dynamic_dns=webfaction_dynamic_dns.cli:main',
+            'webfactionddns=webfactionddns.cli:main',
         ],
     },
     install_requires=requirements,
     license="MIT license",
     long_description=readme + '\n\n' + history,
     include_package_data=True,
-    keywords='webfaction_dynamic_dns',
-    name='webfaction_dynamic_dns',
-    packages=find_packages(include=['webfaction_dynamic_dns', 'webfaction_dynamic_dns.*']),
+    keywords='webfactionddns',
+    name='webfactionddns',
+    packages=find_packages(include=['webfactionddns', 'webfactionddns.*']),
     setup_requires=setup_requirements,
     test_suite='tests',
     tests_require=test_requirements,
-    url='https://github.com/vlazic/webfaction_dynamic_dns',
+    url='https://github.com/vlazic/webfactionddns',
     version='0.1.0',
     zip_safe=False,
 )

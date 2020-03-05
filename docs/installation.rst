@@ -12,7 +12,7 @@ To install Webfaction Dynamic DNS, run this command in your terminal:
 
 .. code-block:: console
 
-    $ pip install webfaction_dynamic_dns
+    $ pip install webfactionddns
 
 This is the preferred method to install Webfaction Dynamic DNS, as it will always install the most recent stable release.
 
@@ -32,13 +32,13 @@ You can either clone the public repository:
 
 .. code-block:: console
 
-    $ git clone git://github.com/vlazic/webfaction_dynamic_dns
+    $ git clone git://github.com/vlazic/webfactionddns
 
 Or download the `tarball`_:
 
 .. code-block:: console
 
-    $ curl -OJL https://github.com/vlazic/webfaction_dynamic_dns/tarball/master
+    $ curl -OJL https://github.com/vlazic/webfactionddns/tarball/master
 
 Once you have a copy of the source, you can install it with:
 
@@ -47,5 +47,5 @@ Once you have a copy of the source, you can install it with:
     $ python setup.py install
 
 
-.. _Github repo: https://github.com/vlazic/webfaction_dynamic_dns
-.. _tarball: https://github.com/vlazic/webfaction_dynamic_dns/tarball/master
+.. _Github repo: https://github.com/vlazic/webfactionddns
+.. _tarball: https://github.com/vlazic/webfactionddns/tarball/master

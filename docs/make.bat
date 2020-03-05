@@ -9,7 +9,7 @@ if "%SPHINXBUILD%" == "" (
 )
 set SOURCEDIR=.
 set BUILDDIR=_build
-set SPHINXPROJ=webfaction_dynamic_dns
+set SPHINXPROJ=webfactionddns
 
 if "%1" == "" goto help
 

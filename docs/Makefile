@@ -4,7 +4,7 @@
 # You can set these variables from the command line.
 SPHINXOPTS    =
 SPHINXBUILD   = python -msphinx
-SPHINXPROJ    = webfaction_dynamic_dns
+SPHINXPROJ    = webfactionddns
 SOURCEDIR     = .
 BUILDDIR      = _build
 

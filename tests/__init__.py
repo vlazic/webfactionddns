@@ -1,1 +1,1 @@
-"""Unit test package for webfaction_dynamic_dns."""
+"""Unit test package for webfactionddns."""

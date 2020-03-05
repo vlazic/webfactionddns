@@ -1,17 +1,17 @@
 #!/usr/bin/env python
 
-"""Tests for `webfaction_dynamic_dns` package."""
+"""Tests for `webfactionddns` package."""
 
 
 import unittest
 from click.testing import CliRunner
 
-from webfaction_dynamic_dns import webfaction_dynamic_dns
-from webfaction_dynamic_dns import cli
+from webfactionddns import webfactionddns
+from webfactionddns import cli
 
 
-class TestWebfaction_dynamic_dns(unittest.TestCase):
-    """Tests for `webfaction_dynamic_dns` package."""
+class Testwebfactionddns(unittest.TestCase):
+    """Tests for `webfactionddns` package."""
 
     def setUp(self):
         """Set up test fixtures, if any."""
@@ -27,7 +27,7 @@ class TestWebfaction_dynamic_dns(unittest.TestCase):
         runner = CliRunner()
         result = runner.invoke(cli.main)
         assert result.exit_code == 0
-        assert 'webfaction_dynamic_dns.cli.main' in result.output
+        assert 'webfactionddns.cli.main' in result.output
         help_result = runner.invoke(cli.main, ['--help'])
         assert help_result.exit_code == 0
         assert '--help  Show this message and exit.' in help_result.output
